@@ -1,0 +1,5 @@
+Flask
+influxdb-client
+paho-mqtt
+python-dotenv
+requests
