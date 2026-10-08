@@ -1,0 +1,41 @@
+# --- SICUREZZA ---
+secrets.h
+config.json
+.env
+.env.*
+!.env.example
+api_cache.json
+api_cache.json.tmp
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+
+# --- ARDUINO / C++ ---
+.gcc-flags.json
+*.o
+*.elf
+*.bin
+*.hex
+*.exe
+build/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
